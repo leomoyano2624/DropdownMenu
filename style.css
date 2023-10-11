@@ -1,0 +1,111 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+html {
+  font-size: 62.5%;
+}
+.container-header {
+  display: flex;
+  flex-direction: column;
+}
+.header-top {
+  display: flex;
+  justify-content: space-between;
+}
+.snap {
+  background-image: url(./DropdownMenu/images/logo.svg);
+  background-repeat: no-repeat;
+  background-size: 80%;
+  width: 100px;
+  height: 50px;
+  background-position: top 20px left 15px;
+}
+.striped-menu {
+  background-image: url(./DropdownMenu/images/icon-menu.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 50px;
+  height: 50px;
+}
+.striped-menu:hover {
+  cursor: pointer;
+}
+.container-img {
+  background-size: cover;
+}
+
+.container-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.img {
+  background-image: url(./DropdownMenu/images/image-hero-mobile.png);
+  width: 100%;
+  height: 346px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin-top: 60px;
+  min-height: 230px;
+}
+.title {
+  font-family: "Epilogue", sans-serif;
+  font-weight: 700;
+  font-size: 3.29rem;
+}
+.paragrapht {
+  font-family: "Epilogue", sans-serif;
+  font-size: 1.8rem;
+  color: #686868;
+  padding: 0 39px;
+  text-align: center;
+  line-height: 25px;
+}
+.learn-more {
+  border: none;
+  background-color: black;
+  color: #f9f9f9;
+  font-family: "Epilogue", sans-serif;
+  height: 40px;
+  width: 110px;
+  border-radius: 12px;
+}
+.learn-more:hover {
+  cursor: pointer;
+  background-color: #f9f9f9;
+  color: black;
+  border: 1px solid black;
+}
+.container-footer {
+  display: flex;
+  justify-content: space-around;
+  height: 25px;
+  margin: 40px 0;
+}
+.databiz {
+  background-image: url(./DropdownMenu/images/client-databiz.svg);
+  background-repeat: no-repeat;
+  width: 70px;
+  background-size: 100%;
+}
+.audiophile {
+  background-image: url(./DropdownMenu/images/client-audiophile.svg);
+  background-repeat: no-repeat;
+  width: 40px;
+  background-size: 100%;
+}
+.meet {
+  background-image: url(./DropdownMenu/images/client-meet.svg);
+  background-repeat: no-repeat;
+  width: 60px;
+  background-size: 100%;
+}
+.maker {
+  background-image: url(./DropdownMenu/images/client-maker.svg);
+  background-repeat: no-repeat;
+  width: 70px;
+  background-size: 100%;
+}

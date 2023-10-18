@@ -11,6 +11,7 @@ html {
 .container-header {
   display: flex;
   flex-direction: column;
+  min-width: 320px;
 }
 
 .header-top {
@@ -19,16 +20,21 @@ html {
 }
 
 .snap {
-  background-image: url(../DropdownMenu/images/logo.svg);
+  background-image: url(../images/logo.svg);
   background-repeat: no-repeat;
   background-size: 80%;
   width: 100px;
   height: 50px;
   background-position: top 20px left 15px;
 }
-
+.features,
+.company,
+.careers,
+.about {
+  display: none;
+}
 .striped-menu {
-  background-image: url(../DropdownMenu/images/icon-menu.svg);
+  background-image: url(../images/icon-menu.svg);
   background-repeat: no-repeat;
   background-position: center;
   width: 50px;
@@ -47,7 +53,6 @@ html {
   width: 200px;
   height: 109vh;
   cursor: pointer;
-
 }
 
 .inactive {
@@ -55,7 +60,7 @@ html {
 }
 
 .button-closed {
-  background-image: url(../DropdownMenu/images/icon-close-menu.svg);
+  background-image: url(../images/icon-close-menu.svg);
   background-repeat: no-repeat;
   background-position: right;
   height: 50px;
@@ -76,21 +81,22 @@ html {
 .subtitle2 {
   margin-left: 10px;
   font-size: 1.2rem;
-
 }
-
+.ancla,
+.button {
+  display: none;
+}
 .container-nav li .icon-arrow-up {
   display: inline-block;
   width: 13px;
   height: 8px;
   margin-left: 3px;
-  background-image: url("../DropdownMenu/images/icon-arrow-up.svg");
+  background-image: url("../images/icon-arrow-up.svg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   text-align: center;
 }
-
 
 .container-nav .list-menu,
 .list-menu-two {
@@ -117,22 +123,22 @@ p .icon-todoList,
   height: 15px;
   margin-left: 10px;
   margin-right: 5px;
-  background-image: url("../DropdownMenu/images/icon-todo.svg");
+  background-image: url("../images/icon-todo.svg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 p .icon-calender {
-  background-image: url("../DropdownMenu/images/icon-calendar.svg")
+  background-image: url("../images/icon-calendar.svg");
 }
 
 p .icon-remiders {
-  background-image: url("../DropdownMenu/images/icon-reminders.svg");
+  background-image: url("../images/icon-reminders.svg");
 }
 
 p .icon-plannig {
-  background-image: url("../DropdownMenu/images/icon-planning.svg");
+  background-image: url("../images/icon-planning.svg");
 }
 
 .container-nav-buttons {
@@ -141,7 +147,6 @@ p .icon-plannig {
   align-items: center;
   gap: 5px;
   margin-top: 30px;
-
 }
 
 .buttons-btn1,
@@ -158,7 +163,7 @@ p .icon-plannig {
 
 .buttons-btn1:hover,
 .buttons-btn2:hover {
-  border: 1.8px solid #686868
+  border: 1.8px solid #686868;
 }
 
 .container-img {
@@ -170,10 +175,14 @@ p .icon-plannig {
   flex-direction: column;
   align-items: center;
   gap: 20px;
+  min-width: 320px;
+}
+.container-secundary {
+  display: contents;
 }
 
 .img {
-  background-image: url(../DropdownMenu/images/image-hero-mobile.png);
+  background-image: url(../images/image-hero-mobile.png);
   width: 100%;
   height: 346px;
   background-size: 100%;
@@ -216,35 +225,35 @@ p .icon-plannig {
 
 .container-footer {
   display: flex;
-  justify-content: space-around;
-  height: 25px;
+  gap: 50px;
+  height: 30px;
   margin: 40px 0;
+  min-width: 320px;
 }
 
 .databiz {
-  background-image: url(../DropdownMenu/images/client-databiz.svg);
+  background-image: url(../images/client-databiz.svg);
   background-repeat: no-repeat;
-  width: 70px;
+  width: 80px;
   background-size: 100%;
 }
 
 .audiophile {
-  background-image: url(../DropdownMenu/images/client-audiophile.svg);
+  background-image: url(../images/client-audiophile.svg);
   background-repeat: no-repeat;
-  width: 40px;
+  width: 57px;
   background-size: 100%;
 }
 
 .meet {
-  background-image: url(../DropdownMenu/images/client-meet.svg);
-  background-repeat: no-repeat;
-  width: 60px;
-  background-size: 100%;
-}
-
-.maker {
-  background-image: url(../DropdownMenu/images/client-maker.svg);
+  background-image: url(../images/client-meet.svg);
   background-repeat: no-repeat;
   width: 70px;
+  background-size: 100%;
+}
+.maker {
+  background-image: url(../images/client-maker.svg);
+  background-repeat: no-repeat;
+  width: 80px;
   background-size: 100%;
 }

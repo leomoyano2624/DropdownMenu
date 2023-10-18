@@ -60,7 +60,7 @@ html {
 }
 
 .button-closed {
-  background-image: url(../DropdownMenu/images/icon-close-menu.svg);
+  background-image: url(../images/icon-close-menu.svg);
   background-repeat: no-repeat;
   background-position: right;
   height: 50px;
@@ -82,13 +82,16 @@ html {
   margin-left: 10px;
   font-size: 1.2rem;
 }
-
+.ancla,
+.button {
+  display: none;
+}
 .container-nav li .icon-arrow-up {
   display: inline-block;
   width: 13px;
   height: 8px;
   margin-left: 3px;
-  background-image: url("../DropdownMenu/images/icon-arrow-up.svg");
+  background-image: url("../images/icon-arrow-up.svg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -120,22 +123,22 @@ p .icon-todoList,
   height: 15px;
   margin-left: 10px;
   margin-right: 5px;
-  background-image: url("../DropdownMenu/images/icon-todo.svg");
+  background-image: url("../images/icon-todo.svg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 p .icon-calender {
-  background-image: url("../DropdownMenu/images/icon-calendar.svg");
+  background-image: url("../images/icon-calendar.svg");
 }
 
 p .icon-remiders {
-  background-image: url("../DropdownMenu/images/icon-reminders.svg");
+  background-image: url("../images/icon-reminders.svg");
 }
 
 p .icon-plannig {
-  background-image: url("../DropdownMenu/images/icon-planning.svg");
+  background-image: url("../images/icon-planning.svg");
 }
 
 .container-nav-buttons {

@@ -1,0 +1,110 @@
+.container-header {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.header-top {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+}
+.snap {
+  background-position: bottom 50px;
+  margin-bottom: 10px;
+}
+.features,
+.company,
+.careers,
+.about,
+.ancla,
+.button {
+  display: flex;
+  font-size: 1.2rem;
+  font-family: "Epilogue", sans-serif;
+  color: rgb(105, 105, 105);
+}
+.container-arrow {
+  display: flex;
+  align-items: center;
+}
+.container-arrow:hover .arrow-down,
+.container-arrow:hover .features,
+.container-arrow:hover .company {
+  cursor: pointer;
+  color: black;
+  filter: invert(100%) sepia(0%) saturate(100%) hue-rotate(100deg)
+    brightness(0%) contrast(119%);
+}
+.arrow-down {
+  background-image: url(../images/icon-arrow-down.svg);
+  background-size: cover;
+  width: 10px;
+  height: 6px;
+  margin-left: 5px;
+}
+.about:hover {
+  cursor: pointer;
+  color: black;
+}
+.conth-right {
+  display: flex;
+  gap: 50px;
+  margin-right: 30px;
+  margin-top: 5px;
+  align-items: center;
+}
+.ancla {
+  text-decoration: none;
+}
+.ancla:hover {
+  color: black;
+}
+.button {
+  width: 80px;
+  height: 35px;
+  border-radius: 12px;
+  border: 1px solid rgb(105, 105, 105);
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.button:hover {
+  cursor: pointer;
+  border: 1px solid black;
+  color: black;
+}
+.striped-menu {
+  display: none;
+}
+.container-main {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.container-secundary {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-left: 100px;
+  margin-top: 140px;
+  padding-right: 64px;
+  row-gap: 60px;
+}
+.img {
+  background-image: url(../images/image-hero-desktop.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 881px;
+  height: 577px;
+  margin-top: 0px;
+  margin-right: 132px;
+}
+.title {
+  font-size: 6rem;
+  text-align: left;
+  padding-right: 207px;
+}
+.paragrapht {
+  text-align: left;
+  padding: 0 160px 0 0;
+}

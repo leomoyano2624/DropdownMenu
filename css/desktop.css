@@ -42,7 +42,7 @@
   height: 6px;
   margin-left: 5px;
 }
-.about:hover {
+.subtitle:hover {
   cursor: pointer;
   color: black;
 }

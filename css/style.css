@@ -58,13 +58,18 @@ html {
 .inactive {
   display: none;
 }
-
+.button-container {
+  display: flex;
+  justify-content: right;
+  width: 100%;
+}
 .button-closed {
   background-image: url(../images/icon-close-menu.svg);
   background-repeat: no-repeat;
   background-position: right;
   height: 50px;
-  margin-right: 13px;
+  margin-right: 20px;
+  width: 70px;
 }
 
 .container-nav li {
@@ -75,6 +80,7 @@ html {
   font-family: "Epilogue", sans-serif;
   font-size: 1.4rem;
   color: #686868;
+  display: flex;
 }
 
 .subtitle,
@@ -82,22 +88,22 @@ html {
   margin-left: 10px;
   font-size: 1.2rem;
 }
-.ancla,
-.button {
-  display: none;
-}
-.container-nav li .icon-arrow-up {
+#down,
+#downTwo {
   display: inline-block;
   width: 13px;
   height: 8px;
   margin-left: 3px;
-  background-image: url("../images/icon-arrow-up.svg");
+  background-image: url(../images/icon-arrow-up.svg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   text-align: center;
 }
-
+.ancla,
+.button {
+  display: none;
+}
 .container-nav .list-menu,
 .list-menu-two {
   font-size: 1.3rem;
@@ -114,7 +120,7 @@ html {
   line-height: 2;
 }
 
-p .icon-todoList,
+.icon-todoList,
 .icon-calender,
 .icon-remiders,
 .icon-plannig {
@@ -161,9 +167,12 @@ p .icon-plannig {
   border-radius: 12px;
 }
 
-.buttons-btn1:hover,
 .buttons-btn2:hover {
-  border: 1.8px solid #686868;
+  border: 1.8px solid black;
+  color: black;
+}
+.buttons-btn1:hover {
+  color: black;
 }
 
 .container-img {

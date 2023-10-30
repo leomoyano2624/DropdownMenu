@@ -54,7 +54,6 @@ html {
   height: 109vh;
   cursor: pointer;
 }
-
 .inactive {
   display: none;
 }
@@ -83,10 +82,17 @@ html {
   display: flex;
 }
 
-.subtitle,
-.subtitle2 {
+.subtitle1,
+.subtitle2,
+.subtitle {
   margin-left: 10px;
   font-size: 1.2rem;
+}
+.container-arrow {
+  display: none;
+}
+.container-arrow2 {
+  display: none;
 }
 #down,
 #downTwo {
@@ -94,11 +100,14 @@ html {
   width: 13px;
   height: 8px;
   margin-left: 3px;
-  background-image: url(../images/icon-arrow-up.svg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   text-align: center;
+}
+#down-desktop,
+#down-desktop2 {
+  display: none;
 }
 .ancla,
 .button {
@@ -173,6 +182,7 @@ p .icon-plannig {
 }
 .buttons-btn1:hover {
   color: black;
+  font-weight: 800;
 }
 
 .container-img {
